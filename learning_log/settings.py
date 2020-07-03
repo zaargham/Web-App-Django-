@@ -16,7 +16,7 @@ import os
 # My settings
 LOGIN_URL = '/users/login/'
 # Settings for django-bootstrap3
-BOOTSTRAP3 = {
+BOOTSTRAP4 = {
  'include_jquery': True,
  }
 
@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Third party apps
-    'bootstrap3',
+    'bootstrap4',
     'learning_logs',
     'users',
 	
